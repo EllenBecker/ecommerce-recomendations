@@ -25,6 +25,17 @@ npm start
 
 3. Open your browser and navigate to `http://localhost:8080`
 
+## Running with Docker
+
+1. Build and start the container:
+```
+docker compose up --build
+```
+
+2. Open your browser and navigate to `http://localhost:3000`
+
+Source files are mounted into the container, so changes made locally are picked up automatically by browser-sync.
+
 ## Features
 
 - User profile selection with details display
